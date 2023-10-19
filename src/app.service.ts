@@ -21,7 +21,7 @@ export class AppService {
       },
       requestBody: {
         name: file.originalname,
-        parents: [`1320PkbJ9sCrFnvPHyBXiyn38eJ0wZSxl`],
+        parents: [process.env.GOOGLE_DRIVE_FOLDER_ID],
       },
       fields: 'id,name,webContentLink',
     });
