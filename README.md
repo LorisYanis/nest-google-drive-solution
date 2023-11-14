@@ -9,15 +9,12 @@ git clone https://github.com/LorisYanis/nest-google-drive-solution.git
 ### Install packages
 
 ```shell
-npm i
-```
-
-OR
-
-```shell
+npm install
+# OR
 yarn install
+# OR
+pnpm install
 ```
-
 > OR any other alternative package manager
 
 ### Add googlekey.json to the root directory
