@@ -41,7 +41,7 @@ yarn install
 ### Setup .env file
 
 ```shell
-# The google drive folder's ID (https://drive.google.com/drive/u/0/folders/ID...)
-# (You must a folder before and add a client_email from googlekey-example)
+# The Google Drive folder's ID (https://drive.google.com/drive/u/0/folders/ID...)
+# (You must create a folder and provide access to a client_email from googlekey-example.)
 GOOGLE_DRIVE_FOLDER_ID="YOUR_ID"
 ```
